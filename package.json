@@ -1,0 +1,17 @@
+{
+  "name": "treeshaking",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "npx rollup -c rollup.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@lightningjs/sdk": "^5.5.4",
+    "rollup": "^4.28.1"
+  }
+}
