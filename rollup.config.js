@@ -2,7 +2,7 @@ import { defineConfig } from 'rollup';
 
 
 export default defineConfig({
-    input: 'main.js',
+    input: 'src/main.js',
     output: {
         file: 'dist/bundle.js',
         format: 'esm',
